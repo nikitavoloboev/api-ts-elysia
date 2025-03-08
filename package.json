@@ -1,0 +1,21 @@
+{
+  "name": "api-ts-elysia",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch main.ts",
+    "s": "bun --watch scripts/run.ts"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^1.2.0",
+    "elysia": "^1.2.25"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.2"
+  },
+  "prettier": {
+    "semi": false
+  }
+}
