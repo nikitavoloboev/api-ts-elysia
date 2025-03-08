@@ -3,6 +3,7 @@
   "type": "module",
   "scripts": {
     "dev": "bun --watch main.ts",
+    "start": "bun main.ts",
     "s": "bun --watch scripts/run.ts"
   },
   "dependencies": {
