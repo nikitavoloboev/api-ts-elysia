@@ -1,5 +1,7 @@
 import { Elysia } from "elysia"
 
+console.log(process.env.PORT, "PORT")
+
 const app = new Elysia().get("/", "test").listen(process.env.PORT ?? 4000)
 
 export type App = typeof app
